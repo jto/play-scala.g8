@@ -6,3 +6,5 @@ resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/release
 
 // Use the Play sbt plugin for Play projects
 addSbtPlugin("play" % "sbt-plugin" % "$play_version$")
+
+addSbtPlugin("net.databinder.giter8" % "giter8-scaffold" % "0.4.6-SNAPSHOT")
